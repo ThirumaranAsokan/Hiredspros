@@ -1,6 +1,4 @@
-# Create a text file containing the README-style content for copying to the repo
 
-readme_content = """
 # Diversity and Inclusion Tool: Integration into HiredSpros Repository
 
 ## Introduction
