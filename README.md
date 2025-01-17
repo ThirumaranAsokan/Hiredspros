@@ -6,7 +6,7 @@ Optimizing Recruitment for NHS and Data Science Industries
 This open-source recruitment platform leverages cutting-edge AI to streamline hiring processes, specifically tailored to meet the unique needs of the NHS and Data Science industries. It integrates features like AI-powered job matching, real-time hiring analytics, AI-generated job descriptions, and tools to ensure diversity and inclusion.
 By solving real-world recruitment challenges, this platform aims to make hiring faster, more efficient, and equitable for employers and candidates.
 Features
-# [1] AI-Powered Job Matching
+## [1] AI-Powered Job Matching
 - Advanced candidate profiling: AI analyzes resumes, skills, and experience to rank candidates for specific roles.
 - Industry-specific optimization: Models tailored for NHS compliance requirements and Data Science roles like Python proficiency.
 # [2] Real-Time Hiring Analytics
