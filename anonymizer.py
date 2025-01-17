@@ -1,3 +1,9 @@
+import re
+import spacy
+
+# Load spaCy's pre-trained model for English
+nlp = spacy.load("en_core_web_sm")
+
 def anonymize_resume(resume_text):
     """
     Anonymizes personal information in a resume.
@@ -8,9 +14,20 @@ def anonymize_resume(resume_text):
     Returns:
     - str: Anonymized resume text.
     """
-    # Implement logic to redact personal information
-    # Example: Replace names, addresses, and other identifiable details with placeholders
-    anonymized_text = resume_text  # Placeholder logic
+    # Redact email addresses
+    anonymized_text = re.sub(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b', '[REDACTED EMAIL]', resume_text)
+    
+    # Redact phone numbers (handles various formats)
+    anonymized_text = re.sub(r'\b(?:\+?\d{1,3})?[ -]?\(?\d{1,4}?\)?[ -]?\d{1,4}[ -]?\d{1,4}[ -]?\d{1,9}\b', '[REDACTED PHONE]', anonymized_text)
+    
+    # Redact addresses (simple example)
+    anonymized_text = re.sub(r'\b\d{1,4} [A-Za-z0-9 ]+ St|Ave|Blvd|Road|Rd|Drive|Dr|Court|Ct\b', '[REDACTED ADDRESS]', anonymized_text)
+    
+    # Redact names using spaCy's NER
+    doc = nlp(anonymized_text)
+    for ent in doc.ents:
+        if ent.label_ == "PERSON":
+            anonymized_text = anonymized_text.replace(ent.text, '[REDACTED NAME]')
     
     return anonymized_text
 
