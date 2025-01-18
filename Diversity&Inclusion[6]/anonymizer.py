@@ -1,5 +1,5 @@
 import re
-import spacy
+import spacy # type: ignore
 
 # Load spaCy's pre-trained model for English
 nlp = spacy.load("en_core_web_sm")

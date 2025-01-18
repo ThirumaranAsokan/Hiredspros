@@ -22,3 +22,33 @@ HiredSpros/
 │   ├── test_bias_detector.py
 │   ├── test_metrics_dashboard.py
 └── requirements.txt
+## Usage Instructions
+1.	Setup:
+o	Clone the repository and navigate to the directory.
+o	Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+
+2.	Run Modules:
+o	Anonymizer:
+bash
+Copy code
+python diversity_inclusion_tool/anonymizer.py
+
+o	Bias Detector:
+bash
+Copy code
+python diversity_inclusion_tool/bias_detector.py
+
+o	Metrics Dashboard:
+bash
+Copy code
+python diversity_inclusion_tool/metrics_dashboard.py
+
+3.	Bulk Process:
+o	Process resumes:
+bash
+Copy code
+python diversity_inclusion_tool/Multiple_resumes.py
+
