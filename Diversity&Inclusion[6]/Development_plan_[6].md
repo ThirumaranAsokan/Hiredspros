@@ -70,3 +70,21 @@ This module detects biased or toxic language in job descriptions and suggests ne
 To run the bias detector:
 ```bash
 python enhanced_bias.py
+
+# Metrics Dashboard Module
+
+## Overview
+This module visualizes diversity metrics (e.g., gender distribution, ethnic representation) and uses predictive analytics to forecast future trends.
+
+### Key Features
+- *Diversity Visualization:* Displays diversity data using pie charts.
+- *Predictive Analytics:* Uses *Facebook Prophet* to predict future diversity trends based on historical data.
+
+### Dependencies
+- *fbprophet*: For time series forecasting.
+- *matplotlib*: For data visualization.
+
+### Usage
+To run the metrics dashboard:
+```bash
+python enhanced_metrics.py
