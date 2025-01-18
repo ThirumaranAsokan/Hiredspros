@@ -88,3 +88,17 @@ This module visualizes diversity metrics (e.g., gender distribution, ethnic repr
 To run the metrics dashboard:
 ```bash
 python enhanced_metrics.py
+
+### *Challenges Overcome:*
+
+1. *NER Integration: One challenge I encountered was ensuring that the **spaCy NER model* could handle resumes with unusual formatting. I spent time refining the extraction logic to ensure that the model could correctly identify personal data even when presented in non-standard formats.
+
+2. *Bias Detection: While integrating the **BERT model*, I had to preprocess the job descriptions to make sure the text was clean and properly tokenized. This required some fine-tuning to ensure that the model could detect subtle bias in the descriptions.
+
+3. *Predictive Analytics: Integrating **Prophet* required me to carefully align the historical data with the forecasting model. There were challenges related to setting the correct time intervals, but after a few adjustments, the model became accurate and reliable for predicting future diversity trends.
+
+Future Enhancements
+AI-enhanced Feedback Loop: Continuously improve bias detection based on user feedback.
+Integration with Job Boards: Automatically check job postings for bias before they are published.
+Real-Time Analytics: Implement live diversity tracking and alerts when diversity goals are not being met.
+
