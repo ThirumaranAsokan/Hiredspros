@@ -1,5 +1,5 @@
-from transformers import pipeline
-from textblob import TextBlob
+from transformers import pipeline # type: ignore
+from textblob import TextBlob # type: ignore
 
 # Load pre-trained model for bias detection
 bias_detector = pipeline("text-classification", model="unitary/toxic-bert")
@@ -26,5 +26,5 @@ def main():
     print("Sentiment Analysis:", analyze_sentiment(job_description))
     print("Bias Detection Result:", detect_bias_with_ai(job_description))
 
-if _name_ == "_main_":
+if _name_ == "_main_": # type: ignore
     main()

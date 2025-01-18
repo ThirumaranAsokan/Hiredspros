@@ -1,0 +1,58 @@
+Thirumaran Asokan
+London, United Kingdom | Thirumaranasokan1210@gmail.com | (+44) 7442004642
+Professional Summary
+Dynamic and detail-oriented Data Analyst and Reporting Coordinator with 2 years of experience in data analysis, reporting, and process optimization. Proficient in Python, SQL, Tableau, and Excel, with a proven track record of transforming data into actionable insights that enhance business decision-making. Adept at creating dashboards, automating reporting workflows, and collaborating with cross-functional teams to meet organizational goals. Eligible for Skilled Worker Visa sponsorship, driven to contribute to organizational growth through data-driven strategies.
+Key Skills
+• Data Analysis
+• Reporting & Dashboards
+• Python, SQL, Tableau, Excel
+• Data Management & Quality Assurance
+• Business Intelligence Tools (Power BI, Tableau)
+• Stakeholder Collaboration
+• CRM Integration & ERP Systems
+• Data Visualization
+• Workflow Automation
+• KPI Development
+Professional Experience
+Marchwood Scientific, Southampton, UK
+Reporting Coordinator
+March 2024 – Present
+- Designed and maintained interactive dashboards using Tableau and Excel to track KPIs, achieving consistent 95% metric compliance.
+- Automated reporting processes, reducing manual workload by 25% and improving turnaround time.
+- Prepared and presented monthly performance and compliance reports to senior management.
+- Collaborated with cross-regional teams to standardize reporting processes and ensure data consistency.
+- Conducted root cause analysis on data anomalies, providing solutions that enhanced data quality by 20%.
+- Improved data management practices by implementing ERP-based solutions for streamlined workflows.
+Cogent IBS, Michigan, MA, USA
+Data Coordinator
+January 2023 – January 2024
+- Monitored and optimized SQL database performance, minimizing query response time by 30%.
+- Performed regular data quality checks, ensuring over 99% accuracy in key datasets.
+- Developed ad hoc reports using Python to meet dynamic business requirements.
+- Worked closely with stakeholders to create dashboards that supported real-time decision-making.
+- Led data consolidation efforts, improving data accessibility across multiple platforms.
+IT Analyst (SaaS)
+January 2023 – July 2023
+- Managed SaaS-based CRM integration to streamline customer data reporting processes.
+- Developed and executed 15+ automation workflows that improved data processing efficiency.
+- Conducted detailed assessments of reporting pipelines, identifying bottlenecks and proposing optimizations.
+- Enhanced business reporting accuracy by implementing best practices in data governance.
+Education
+Southampton Solent University, Southampton, UK
+Master's in Applied AI and Data Science - Merit (GPA: 3.2/4.0), January 2022
+
+Anna University, India
+Bachelor of Electronics and Communication Engineering - First Class (GPA: 8.3/10), August 2017
+Certifications & Tools
+• Tableau Specialist Certification
+• Advanced Excel (Macros, PivotTables, Power Query)
+• Python for Data Science (Pandas, NumPy, Matplotlib)
+• SQL for Data Analysis
+• Power BI Fundamentals
+Additional Projects
+- Sales Performance Dashboard: Created an interactive Tableau dashboard for a multinational client, improving visibility into sales metrics and reducing reporting errors by 20%.
+- Database Optimization Project: Led a project to streamline SQL queries, resulting in a 40% performance boost for reporting systems.
+Key Achievements
+- Automated quarterly reports for EMEA operations, cutting down preparation time by 50%.
+- Developed a predictive model for customer behavior analysis, increasing marketing ROI by 10%.
+- Spearheaded data visualization training for internal teams, improving reporting quality and consistency.

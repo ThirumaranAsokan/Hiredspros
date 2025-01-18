@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt # type: ignore
-from fbprophet import Prophet # type: ignore
+import matplotlib.pyplot as plt 
+from fbprophet import Prophet 
+
 import pandas as pd
 
 def generate_mock_data():
@@ -14,6 +15,7 @@ def generate_mock_data():
 def plot_metrics(data):
     """
     Visualizes diversity metrics using pie charts.
+    
     """
     for category, values in data.items():
         labels = values.keys()
