@@ -26,8 +26,8 @@ def anonymize_resume(resume_text):
     # Redact names using spaCy's NER
     doc = nlp(anonymized_text)
     for ent in doc.ents:
-        if ent.label_ == "PERSON":
-            anonymized_text = anonymized_text.replace(ent.text, '[REDACTED NAME]')
+        if ent.label_ in ['PERSON', 'GPE', 'ORG', 'DATE', 'TIME']:
+            anonymized_text = anonymized_text.replace(ent.text, "[REDACTED]")
     
     return anonymized_text
 
