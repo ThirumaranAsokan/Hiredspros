@@ -50,5 +50,23 @@ python diversity_inclusion_tool/metrics_dashboard.py
 o	Process resumes:
 bash
 Copy code
-python diversity_inclusion_tool/Multiple_resumes.py
+python Diversity&Inclusion[6]/Multiple_resumes.py
 
+
+#Enhanced Bias Detector Module
+
+## Overview
+This module detects biased or toxic language in job descriptions and suggests neutral alternatives using pre-trained AI models.
+
+### Key Features
+- *Sentiment Analysis:* Analyzes whether the tone of the job description is negative or positive.
+- *Bias Detection with BERT:* Uses a pre-trained *Toxic BERT model* to detect toxic or biased language.
+
+### Dependencies
+- *transformers*: Hugging Face library for pre-trained models.
+- *textblob*: For sentiment analysis.
+
+### Usage
+To run the bias detector:
+```bash
+python enhanced_bias.py
