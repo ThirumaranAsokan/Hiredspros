@@ -29,32 +29,32 @@ HiredSpros/
 1.	Setup:
 o	Clone the repository and navigate to the directory.
 o	Install dependencies:
-bash
+```bash
 Copy code
 pip install -r requirements.txt
-
+```
 2.	Run Modules:
 o	Anonymizer:
-bash
+```bash
 Copy code
 python diversity_inclusion_tool/anonymizer.py
-
+```
 o	Bias Detector:
-bash
+```bash
 Copy code
 python diversity_inclusion_tool/bias_detector.py
-
+```
 o	Metrics Dashboard:
-bash
+```bash
 Copy code
 python diversity_inclusion_tool/metrics_dashboard.py
-
+```
 3.	Bulk Process:
 o	Process resumes:
-bash
+```bash
 Copy code
 python Diversity&Inclusion[6]/Multiple_resumes.py
-
+```
 
 # Enhanced Bias Detector Module
 
