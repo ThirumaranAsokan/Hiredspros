@@ -22,6 +22,9 @@ HiredSpros/
 │   ├── test_bias_detector.py
 │   ├── test_metrics_dashboard.py
 └── requirements.txt
+```
+
+
 ## Usage Instructions
 1.	Setup:
 o	Clone the repository and navigate to the directory.
