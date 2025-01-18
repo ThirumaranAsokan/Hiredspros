@@ -56,7 +56,7 @@ Copy code
 python Diversity&Inclusion[6]/Multiple_resumes.py
 
 
-#Enhanced Bias Detector Module
+# Enhanced Bias Detector Module
 
 ## Overview
 This module detects biased or toxic language in job descriptions and suggests neutral alternatives using pre-trained AI models.
@@ -73,6 +73,7 @@ This module detects biased or toxic language in job descriptions and suggests ne
 To run the bias detector:
 ```bash
 python enhanced_bias.py
+```
 
 # Metrics Dashboard Module
 
@@ -91,7 +92,7 @@ This module visualizes diversity metrics (e.g., gender distribution, ethnic repr
 To run the metrics dashboard:
 ```bash
 python enhanced_metrics.py
-
+```
 ### *Challenges Overcome:*
 
 1. *NER Integration: One challenge I encountered was ensuring that the **spaCy NER model* could handle resumes with unusual formatting. I spent time refining the extraction logic to ensure that the model could correctly identify personal data even when presented in non-standard formats.
