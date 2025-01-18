@@ -106,3 +106,43 @@ AI-enhanced Feedback Loop: Continuously improve bias detection based on user fee
 Integration with Job Boards: Automatically check job postings for bias before they are published.
 Real-Time Analytics: Implement live diversity tracking and alerts when diversity goals are not being met.
 
+3. Run Docker Container
+Once the image is built, run the Docker container with the following command:
+
+```bash
+Copy code
+docker run --rm -it diversity-inclusion-tool
+```
+Explanation:
+--rm: Automatically removes the container when it stops.
+-it: Runs the container interactively, allowing you to see the output in your terminal.
+diversity-inclusion-tool: Specifies the name of the image to run.
+
+4. Verify Output
+After running the container, you should see output in your terminal indicating that the backend script is running. For example, it might process resumes, detect bias in job descriptions, or visualize diversity metrics.
+
+5. Rebuild Docker Image (if needed)
+If you make changes to the project (e.g., updating the code or adding dependencies), you will need to rebuild the Docker image. To do this, simply run the build command again:
+
+```bash
+Copy code
+docker build -t diversity-inclusion-tool .
+```
+6. Clean Up
+To stop and remove all containers and images that are no longer needed, you can run:
+
+```bash
+Copy code
+docker system prune
+```
+This will clean up unused images, containers, and networks, freeing up space on your machine.
+
+## Conclusion
+Once these steps are completed, your project will be containerized and ready to run in any environment that supports Docker. The containerized application can easily be deployed and tested, ensuring consistency across different environments.
+
+## Additional Notes
+If you’re planning to integrate a frontend in the future, the Docker container exposes port 5000, which can be used to interact with the backend via a frontend application.
+For more information on Docker usage, visit the official Docker Documentation.
+yaml
+
+
