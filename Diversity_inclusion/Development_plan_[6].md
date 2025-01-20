@@ -99,7 +99,7 @@ python enhanced_metrics.py
 
 2. *Bias Detection: While integrating the **BERT model*, I had to preprocess the job descriptions to make sure the text was clean and properly tokenized. This required some fine-tuning to ensure that the model could detect subtle bias in the descriptions.
 
-3. *Predictive Analytics: Integrating **Prophet* required me to carefully align the historical data with the forecasting model. There were challenges related to setting the correct time intervals, but after a few adjustments, the model became accurate and reliable for predicting future diversity trends.
+3. *Predictive Analytics: Integrating **Prophet* required me to carefully align the historical data with the forecasting model. There were challenges related to setting the correct time intervals, but after a few adjustments, the model became accurate and reliable for predicting future diversity trends.You could nevr use fbprophet cuz its depreciated always use prophet
 
 Future Enhancements
 AI-enhanced Feedback Loop: Continuously improve bias detection based on user feedback.
