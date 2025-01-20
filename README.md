@@ -21,7 +21,8 @@ Features
 - Shift compatibility matching: Aligns candidates with open shifts based on availability.
 - Automated credential checks: Ensures compliance for licenses and documents.
 - Crisis hiring mode: Prioritizes urgent recruitment during staff shortages.
-## [6] Diversity & Inclusion Tools
+## [6] Diversity & Inclusion Tools {WIP}
+- Anonymise resumes by integrating all
 - Blind application screening to eliminate bias.
 - Real-time diversity metrics for employers to track inclusivity goals.
 ## [7] Smart Interview Scheduling
