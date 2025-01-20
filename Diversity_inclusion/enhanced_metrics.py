@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt 
-from fbprophet import Prophet 
+from prophet import Prophet 
 
 import pandas as pd
 

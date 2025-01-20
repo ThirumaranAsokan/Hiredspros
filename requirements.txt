@@ -1,8 +1,11 @@
+prophet
+beautifulsoup4
+torch
+requests
 spacy
 transformers
-torch
 matplotlib
-sklearn
-requests
-beautifulsoup4
-fbprophet
+scikit-learn
+
+
+
