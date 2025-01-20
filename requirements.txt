@@ -1,0 +1,8 @@
+spacy
+transformers
+torch
+matplotlib
+sklearn
+requests
+beautifulsoup4
+fbprophet
