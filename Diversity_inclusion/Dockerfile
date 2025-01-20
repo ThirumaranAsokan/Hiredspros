@@ -3,7 +3,7 @@ FROM python:3.9-buster
 # Set the working directory in the container
 WORKDIR /app
 
-# Install system-level dependencies including libgomp1
+# Install system-level dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     python3-dev \
@@ -22,6 +22,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the project files
 COPY . /app
+
+# Debug: List files to confirm everything is copied
+RUN ls -la /app
 
 # Expose port 5000 (future use)
 EXPOSE 5000
