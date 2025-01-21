@@ -43,5 +43,5 @@ def main():
     plot_metrics(metrics_data)
     predict_diversity_trends(metrics_data['Gender'])
 
-if _name_ == "_main_": # type: ignore
+if __name__ == "__main__": 
     main()

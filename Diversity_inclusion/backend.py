@@ -1,7 +1,7 @@
 import os
 from anonymizer import anonymize_resume
-from enhanced_bias import detect_bias
-from enhanced_metrics import generate_mock_data, plot_metrics
+from enhanced_bias import detect_bias_with_ai
+from enhanced_metrics import plot_metrics
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import requests
@@ -12,7 +12,7 @@ def analyze_job_description(job_description):
     """
     Analyzes the job description for bias and extracts keywords.
     """
-    bias_result = detect_bias(job_description)
+    bias_result = detect_bias_with_ai(job_description)
     print(f"Bias Analysis Result: {bias_result}")
 
     # Simple keyword extraction (can replace with advanced NLP)
