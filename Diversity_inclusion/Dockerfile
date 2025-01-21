@@ -1,3 +1,4 @@
+# Use Python 3.9 with Debian Buster base image
 FROM python:3.9-buster
 
 # Set the working directory in the container
@@ -16,17 +17,23 @@ RUN apt-get update && apt-get install -y \
     gfortran \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
-COPY requirements.txt /app/
-RUN pip install --no-cache-dir -r requirements.txt
+# Upgrade pip to avoid outdated notices and add retries for robustness
+RUN pip install --upgrade pip && \
+    pip install --retries 10 --timeout 300 --no-cache-dir setuptools
 
-# Copy the rest of the project files
+# Copy requirements.txt to the container
+COPY requirements.txt /app/
+
+# Install Python dependencies with retries to avoid timeout errors
+RUN pip install --retries 10 --timeout 300 --no-cache-dir -r requirements.txt
+
+# Download and install the Spacy language model
+RUN python -m spacy download en_core_web_sm
+
+# Copy the rest of the project files to the container
 COPY . /app
 
-# Debug: List files to confirm everything is copied
-RUN ls -la /app
-
-# Expose port 5000 (future use)
+# Expose port 5000 (optional)
 EXPOSE 5000
 
 # Command to run the backend script

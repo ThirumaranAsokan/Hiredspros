@@ -6,6 +6,6 @@ spacy
 transformers
 matplotlib
 scikit-learn
-
+textblob
 
 
