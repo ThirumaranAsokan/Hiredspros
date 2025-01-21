@@ -122,7 +122,7 @@ def main(analyze_links=False):
     keywords = analyze_job_description(job_description)
 
     # Match resumes
-    ranked_resumes = match_resumes_with_job(keywords, "Hiredspros")
+    ranked_resumes = match_resumes_with_job(keywords, "Diversity_inclusion")
 
     # Optionally analyze portfolio and GitHub links
     if analyze_links:
@@ -140,6 +140,6 @@ def main(analyze_links=False):
     # Process and anonymize shortlisted resumes
     process_resumes("Hiredspros", "data/output", ranked_resumes)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Set analyze_links to True if you want to enable portfolio/GitHub analysis
     main(analyze_links=True)
