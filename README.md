@@ -1,5 +1,5 @@
 # Hiredspros
-Open Source Software
+Existing Open Source Software
 AI-Powered Recruitment Platform
 Optimizing Recruitment for NHS and Data Science Industries
 # Overview
@@ -21,7 +21,7 @@ Features
 - Shift compatibility matching: Aligns candidates with open shifts based on availability.
 - Automated credential checks: Ensures compliance for licenses and documents.
 - Crisis hiring mode: Prioritizes urgent recruitment during staff shortages.
-## [6] Diversity & Inclusion Tools {WIP}
+## [6] Diversity & Inclusion Tools {WIP}{Done}
 - Anonymise resumes by integrating all
 - Blind application screening to eliminate bias.
 - Real-time diversity metrics for employers to track inclusivity goals.
@@ -38,6 +38,8 @@ Getting Started
 ```bash
 git clone https://github.com/ThirumaranAsoakn/Hiredspros.git
 cd Hiredspros
+**
+### Actual formal code in private repo ue to privacy and ethical concerns**
 ```
 2. Install dependencies:
 ```bash
